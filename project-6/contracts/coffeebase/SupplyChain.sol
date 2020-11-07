@@ -7,10 +7,10 @@ import '../coffeeaccesscontrol/FarmerRole.sol';
 import '../coffeeaccesscontrol/RetailerRole.sol';
 
 // Define a contract 'Supplychain'
-contract SupplyChain is ConsumerRole, DistributorRole, FarmerRole, RetailerRole {
+contract SupplyChain is Ownable, ConsumerRole, DistributorRole, FarmerRole, RetailerRole {
 
   // Define 'owner'
-  address payable owner;
+  address payable private owner;
 
   // Define a variable called 'upc' for Universal Product Code (UPC)
   uint  upc;
