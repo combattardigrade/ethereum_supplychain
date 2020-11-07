@@ -1,4 +1,4 @@
-pragma solidity ^0.4.24;
+pragma solidity ^0.5.16;
 
 // Import the library 'Roles'
 import "./Roles.sol";
@@ -20,7 +20,7 @@ contract RetailerRole {
 
   // Define a modifier that checks to see if msg.sender has the appropriate role
   modifier onlyRetailer() {
-    require(isRetailer(msg.sender) == true, "RetailerRole/invalid-role")
+    require(isRetailer(msg.sender) == true, "RetailerRole/invalid-role");
     _;
   }
 

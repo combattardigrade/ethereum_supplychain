@@ -1,4 +1,4 @@
-pragma solidity ^0.4.24;
+pragma solidity ^0.5.16;
 
 // Import the library 'Roles'
 import "./Roles.sol";
@@ -21,13 +21,13 @@ contract DistributorRole {
 
   // Define a modifier that checks to see if msg.sender has the appropriate role
   modifier onlyDistributor() {
-    require(isConsumer(msg.sender) == true, "DistributorRole/invalid-role")
+    require(isDistributor(msg.sender) == true, "DistributorRole/invalid-role");
     _;
   }
 
   // Define a function 'isDistributor' to check this role
   function isDistributor(address account) public view returns (bool) {
-    return consumers.has(account);
+    return distributors.has(account);
   }
 
   // Define a function 'addDistributor' that adds this role

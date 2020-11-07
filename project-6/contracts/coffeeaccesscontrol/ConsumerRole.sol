@@ -1,4 +1,4 @@
-pragma solidity ^0.4.24;
+pragma solidity ^0.5.16;
 
 // Import the library 'Roles'
 import "./Roles.sol";
@@ -21,7 +21,7 @@ contract ConsumerRole {
 
     // Define a modifier that checks to see if msg.sender has the appropriate role
     modifier onlyConsumer() {
-      require(isConsumer(msg.sender) == true, "ConsumerRole/invalid-role")
+      require(isConsumer(msg.sender) == true, "ConsumerRole/invalid-role");
         _;
     }
 
