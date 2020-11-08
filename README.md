@@ -13,6 +13,11 @@ The DApp User Interface when running should look like...
 ![truffle test](images/ftc_transaction_history.png)
 
 
+# Project write-up - UML
+
+## Acivity Diagram
+![Activity Diagram](images/SupplychainActivityDiagram.png)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
