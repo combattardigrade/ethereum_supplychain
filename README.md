@@ -19,7 +19,10 @@ The DApp User Interface when running should look like...
 ![Activity Diagram](images/SupplychainActivityDiagram.png)
 
 ## Sequence Diagram
-![Activity Diagram](images/SupplychainSequenceDiagram.png)
+![Sequence Diagram](images/SupplychainSequenceDiagram.png)
+
+## State Diagram
+![State Diagram](images/SupplychainStateDiagram.png)
 
 ## Getting Started
 
