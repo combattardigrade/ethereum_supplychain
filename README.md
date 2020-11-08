@@ -12,19 +12,32 @@ The DApp User Interface when running should look like...
 
 ![truffle test](images/ftc_transaction_history.png) -->
 
-# Project write-up - UML
+## Project write-up - UML
 
-## Acivity Diagram
+### Acivity Diagram
 ![Activity Diagram](images/SupplychainActivityDiagram.png)
 
-## Sequence Diagram
+### Sequence Diagram
 ![Sequence Diagram](images/SupplychainSequenceDiagram.png)
 
-## State Diagram
+### State Diagram
 ![State Diagram](images/SupplychainStateDiagram.png)
 
-## Data Model (Class Diagram)
+### Data Model (Class Diagram)
 ![Data Model](images/SupplychainClassDiagram.png)
+
+
+## Contract
+
+### Contract Address (Rinkeby)
+```
+0xe73f3fa5d72063aef897f8b4264215320cbab933
+```
+
+### Contract Creation (Tx Hash)
+```
+0x0d896ab15aad52ec7ca15380594fbd2177157033cb87b4ace81a97f608279e1a
+```
 
 ## Getting Started
 
@@ -48,7 +61,7 @@ A step by step series of examples that tell you have to get a development env ru
 Clone this repository:
 
 ```
-git clone https://github.com/udacity/nd1309/tree/master/course-5/project-6
+git clone https://github.com/combattardigrade/ethereum_supplychain
 ```
 
 Change directory to ```project-6``` folder and install all requisite npm packages (as listed in ```package.json```):
